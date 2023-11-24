@@ -67,19 +67,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		123C62FB2B10929700575CE6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		123C62FE2B10985A00575CE6 /* HomeScene */ = {
 			isa = PBXGroup;
 			children = (
-				123C630B2B10996700575CE6 /* Controllers */,
-				123C630A2B10996100575CE6 /* Views */,
 				123C63092B10995700575CE6 /* Models */,
+				123C630A2B10996100575CE6 /* Views */,
+				123C630B2B10996700575CE6 /* Controllers */,
 			);
 			path = HomeScene;
 			sourceTree = "<group>";
@@ -170,9 +163,11 @@
 		563879462B10891F008768F0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				56CE62762B110D1E005BA881 /* PostingScene */,
-				123C62FB2B10929700575CE6 /* Controller */,
 				563879482B108936008768F0 /* Application */,
+				56CE62902B1112B6005BA881 /* SearchScene */,
+				123C63002B1098A200575CE6 /* MyPageScene */,
+				123C62FE2B10985A00575CE6 /* HomeScene */,
+				56CE62762B110D1E005BA881 /* PostingScene */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -190,13 +185,10 @@
 		563879482B108936008768F0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				123C62FC2B10932700575CE6 /* TabBarController.swift */,
-				123C63002B1098A200575CE6 /* MyPageScene */,
-				123C62FE2B10985A00575CE6 /* HomeScene */,
-				563879322B1088DA008768F0 /* AppDelegate.swift */,
-				123C633F2B10FDB600575CE6 /* SearchViewController.swift */,
-				563879342B1088DA008768F0 /* SceneDelegate.swift */,
 				56CE628D2B110F96005BA881 /* CafeinProfileImageView.swift */,
+				123C62FC2B10932700575CE6 /* TabBarController.swift */,
+				563879322B1088DA008768F0 /* AppDelegate.swift */,
+				563879342B1088DA008768F0 /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -260,6 +252,22 @@
 			isa = PBXGroup;
 			children = (
 				56CE628B2B110E6C005BA881 /* PostingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		56CE62902B1112B6005BA881 /* SearchScene */ = {
+			isa = PBXGroup;
+			children = (
+				56CE62912B1112BC005BA881 /* Controllers */,
+			);
+			path = SearchScene;
+			sourceTree = "<group>";
+		};
+		56CE62912B1112BC005BA881 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				123C633F2B10FDB600575CE6 /* SearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
