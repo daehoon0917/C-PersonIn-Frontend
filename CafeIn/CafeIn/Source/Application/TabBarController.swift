@@ -36,14 +36,14 @@ class TabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         setupUI()
         
     }
     
     
     private func setupUI() {
-        
+
         tabBar.barTintColor = UIColor(red: 0.46, green: 0.38, blue: 0.3, alpha: 1)
         tabBar.isTranslucent = false
         
@@ -56,9 +56,9 @@ class TabBarController: UITabBarController {
         configureTabBar()
     }
     
-    
-    
-    
+
+   
+
 }
 
 
@@ -76,6 +76,11 @@ extension TabBarController {
         tabBar.backgroundColor = UIColor(red: 0.46, green: 0.38, blue: 0.3, alpha: 1)
         tabBar.tintColor = .white
         tabBar.unselectedItemTintColor = .white
+        
+        
+        
+        
+        
     }
 }
 
