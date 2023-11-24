@@ -11,9 +11,10 @@ class TabBarController: UITabBarController {
     
     private lazy var searchViewController: UIViewController = {
         let searchVC = SearchViewController()
+        let navigationController = UINavigationController(rootViewController: searchVC)
         let tabBarItem = UITabBarItem(title: "", image: UIImage(named: "search"), selectedImage: UIImage(named: "search"))
-        searchVC.tabBarItem = tabBarItem
-        return searchVC
+        navigationController.tabBarItem = tabBarItem
+        return navigationController
     }()
     
     private lazy var homeViewController: UIViewController = {

@@ -7,23 +7,29 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
-
+class SearchViewController: UIViewController, UISearchBarDelegate {
+    
+    private let searchBar = UISearchBar()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor(red: 1, green: 0.98, blue: 0.94, alpha: 1)
+        searchBarSetupUI()
     }
     
+    
+    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension SearchViewController {
+    private func searchBarSetupUI() {
+        searchBar.delegate = self
+        searchBar.searchBarStyle = .minimal
+        searchBar.placeholder = "검색어를 입력하시오..."
+        navigationItem.titleView = searchBar
     }
-    */
-
+    
+    
+    
 }
