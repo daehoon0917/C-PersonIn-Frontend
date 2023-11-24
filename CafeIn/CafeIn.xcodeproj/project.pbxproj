@@ -10,8 +10,10 @@
 		123C62FD2B10932700575CE6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C62FC2B10932700575CE6 /* TabBarController.swift */; };
 		123C63052B10990600575CE6 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C63042B10990600575CE6 /* MyPageViewController.swift */; };
 		123C630D2B10A12800575CE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C630C2B10A12800575CE6 /* HomeViewController.swift */; };
-		123C630F2B10A13B00575CE6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C630E2B10A13B00575CE6 /* SearchViewController.swift */; };
 		123C63332B10B5A000575CE6 /* HomeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C63322B10B5A000575CE6 /* HomeBackgroundView.swift */; };
+		123C63362B10C05F00575CE6 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C63352B10C05F00575CE6 /* HomeCell.swift */; };
+		123C63382B10C55D00575CE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C63372B10C55D00575CE6 /* Home.swift */; };
+		123C63402B10FDB600575CE6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C633F2B10FDB600575CE6 /* SearchViewController.swift */; };
 		563879332B1088DA008768F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563879322B1088DA008768F0 /* AppDelegate.swift */; };
 		563879352B1088DA008768F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563879342B1088DA008768F0 /* SceneDelegate.swift */; };
 		5638793C2B1088DC008768F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5638793B2B1088DC008768F0 /* Assets.xcassets */; };
@@ -22,8 +24,10 @@
 		123C62FC2B10932700575CE6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		123C63042B10990600575CE6 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		123C630C2B10A12800575CE6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		123C630E2B10A13B00575CE6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		123C63322B10B5A000575CE6 /* HomeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBackgroundView.swift; sourceTree = "<group>"; };
+		123C63352B10C05F00575CE6 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		123C63372B10C55D00575CE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		123C633F2B10FDB600575CE6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5638792F2B1088DA008768F0 /* CafeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563879322B1088DA008768F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563879342B1088DA008768F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 		123C63092B10995700575CE6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				123C63372B10C55D00575CE6 /* Home.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				123C63322B10B5A000575CE6 /* HomeBackgroundView.swift */,
+				123C63352B10C05F00575CE6 /* HomeCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,8 +172,8 @@
 				123C63002B1098A200575CE6 /* MyPageScene */,
 				123C62FE2B10985A00575CE6 /* HomeScene */,
 				563879322B1088DA008768F0 /* AppDelegate.swift */,
+				123C633F2B10FDB600575CE6 /* SearchViewController.swift */,
 				563879342B1088DA008768F0 /* SceneDelegate.swift */,
-				123C630E2B10A13B00575CE6 /* SearchViewController.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -242,9 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123C630F2B10A13B00575CE6 /* SearchViewController.swift in Sources */,
 				123C630D2B10A12800575CE6 /* HomeViewController.swift in Sources */,
+				123C63362B10C05F00575CE6 /* HomeCell.swift in Sources */,
 				123C62FD2B10932700575CE6 /* TabBarController.swift in Sources */,
+				123C63402B10FDB600575CE6 /* SearchViewController.swift in Sources */,
+				123C63382B10C55D00575CE6 /* Home.swift in Sources */,
 				563879332B1088DA008768F0 /* AppDelegate.swift in Sources */,
 				563879352B1088DA008768F0 /* SceneDelegate.swift in Sources */,
 				123C63052B10990600575CE6 /* MyPageViewController.swift in Sources */,

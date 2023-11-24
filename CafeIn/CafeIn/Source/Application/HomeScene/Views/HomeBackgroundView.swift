@@ -8,7 +8,7 @@
 import UIKit
 
 final class HomeBackgroundView: UIView {
-
+    
     private let cafeInImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
@@ -29,7 +29,7 @@ final class HomeBackgroundView: UIView {
     
 }
 
-// mark: Configure UI
+// MARK: Configure UI
 
 extension HomeBackgroundView {
     
@@ -42,8 +42,7 @@ extension HomeBackgroundView {
         NSLayoutConstraint.activate([
             cafeInImageView.centerXAnchor.constraint(equalTo: centerXAnchor),
             cafeInImageView.heightAnchor.constraint(equalToConstant: 20),
-            cafeInImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,
-                                                 constant: 17),
+            cafeInImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 17)
         ])
     }
     

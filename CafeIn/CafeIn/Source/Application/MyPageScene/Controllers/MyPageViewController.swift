@@ -12,7 +12,7 @@ class MyPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor(red: 1, green: 0.98, blue: 0.94, alpha: 1)
     }
     
 
