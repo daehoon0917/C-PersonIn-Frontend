@@ -19,6 +19,14 @@
 		563879352B1088DA008768F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563879342B1088DA008768F0 /* SceneDelegate.swift */; };
 		5638793C2B1088DC008768F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5638793B2B1088DC008768F0 /* Assets.xcassets */; };
 		5638793F2B1088DC008768F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5638793D2B1088DC008768F0 /* LaunchScreen.storyboard */; };
+		56CE62792B110D39005BA881 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62782B110D39005BA881 /* Reusable.swift */; };
+		56CE627F2B110D9D005BA881 /* PagingImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE627E2B110D9D005BA881 /* PagingImageCollectionViewCell.swift */; };
+		56CE62812B110DB2005BA881 /* PostingStackPagingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62802B110DB2005BA881 /* PostingStackPagingImageView.swift */; };
+		56CE62832B110DDB005BA881 /* PostingHeaderProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62822B110DDB005BA881 /* PostingHeaderProfileView.swift */; };
+		56CE62852B110DF3005BA881 /* PostingStackHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62842B110DF3005BA881 /* PostingStackHeaderView.swift */; };
+		56CE62872B110E22005BA881 /* PostingStackBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62862B110E22005BA881 /* PostingStackBottomButtonView.swift */; };
+		56CE62892B110E43005BA881 /* PostingArticleStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62882B110E43005BA881 /* PostingArticleStackView.swift */; };
+		56CE628C2B110E6C005BA881 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE628B2B110E6C005BA881 /* PostingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,14 @@
 		5638793B2B1088DC008768F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5638793E2B1088DC008768F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563879402B1088DC008768F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CE62782B110D39005BA881 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		56CE627E2B110D9D005BA881 /* PagingImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		56CE62802B110DB2005BA881 /* PostingStackPagingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingStackPagingImageView.swift; sourceTree = "<group>"; };
+		56CE62822B110DDB005BA881 /* PostingHeaderProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingHeaderProfileView.swift; sourceTree = "<group>"; };
+		56CE62842B110DF3005BA881 /* PostingStackHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingStackHeaderView.swift; sourceTree = "<group>"; };
+		56CE62862B110E22005BA881 /* PostingStackBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingStackBottomButtonView.swift; sourceTree = "<group>"; };
+		56CE62882B110E43005BA881 /* PostingArticleStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingArticleStackView.swift; sourceTree = "<group>"; };
+		56CE628B2B110E6C005BA881 /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +168,7 @@
 		563879462B10891F008768F0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				56CE62762B110D1E005BA881 /* PostingScene */,
 				123C62FB2B10929700575CE6 /* Controller */,
 				563879482B108936008768F0 /* Application */,
 			);
@@ -179,6 +196,69 @@
 				563879342B1088DA008768F0 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		56CE62762B110D1E005BA881 /* PostingScene */ = {
+			isa = PBXGroup;
+			children = (
+				56CE62772B110D29005BA881 /* Util */,
+				56CE627A2B110D46005BA881 /* Models */,
+				56CE627B2B110D4F005BA881 /* Views */,
+				56CE628A2B110E56005BA881 /* Controllers */,
+			);
+			path = PostingScene;
+			sourceTree = "<group>";
+		};
+		56CE62772B110D29005BA881 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				56CE62782B110D39005BA881 /* Reusable.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		56CE627A2B110D46005BA881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56CE627B2B110D4F005BA881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56CE627C2B110D5A005BA881 /* PostingArticleStackViewComponentView */,
+				56CE62882B110E43005BA881 /* PostingArticleStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56CE627C2B110D5A005BA881 /* PostingArticleStackViewComponentView */ = {
+			isa = PBXGroup;
+			children = (
+				56CE627D2B110D70005BA881 /* PagingImageView */,
+				56CE62822B110DDB005BA881 /* PostingHeaderProfileView.swift */,
+				56CE62842B110DF3005BA881 /* PostingStackHeaderView.swift */,
+				56CE62862B110E22005BA881 /* PostingStackBottomButtonView.swift */,
+			);
+			path = PostingArticleStackViewComponentView;
+			sourceTree = "<group>";
+		};
+		56CE627D2B110D70005BA881 /* PagingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				56CE627E2B110D9D005BA881 /* PagingImageCollectionViewCell.swift */,
+				56CE62802B110DB2005BA881 /* PostingStackPagingImageView.swift */,
+			);
+			path = PagingImageView;
+			sourceTree = "<group>";
+		};
+		56CE628A2B110E56005BA881 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56CE628B2B110E6C005BA881 /* PostingViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,15 +332,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				123C63422B11078700575CE6 /* ViewController.swift in Sources */,
+				56CE62792B110D39005BA881 /* Reusable.swift in Sources */,
+				56CE627F2B110D9D005BA881 /* PagingImageCollectionViewCell.swift in Sources */,
 				123C630D2B10A12800575CE6 /* HomeViewController.swift in Sources */,
+				56CE62832B110DDB005BA881 /* PostingHeaderProfileView.swift in Sources */,
 				123C63362B10C05F00575CE6 /* HomeCell.swift in Sources */,
+				56CE62852B110DF3005BA881 /* PostingStackHeaderView.swift in Sources */,
 				123C62FD2B10932700575CE6 /* TabBarController.swift in Sources */,
 				123C63402B10FDB600575CE6 /* SearchViewController.swift in Sources */,
 				123C63382B10C55D00575CE6 /* Home.swift in Sources */,
 				563879332B1088DA008768F0 /* AppDelegate.swift in Sources */,
 				563879352B1088DA008768F0 /* SceneDelegate.swift in Sources */,
 				123C63052B10990600575CE6 /* MyPageViewController.swift in Sources */,
+				56CE62812B110DB2005BA881 /* PostingStackPagingImageView.swift in Sources */,
+				56CE62892B110E43005BA881 /* PostingArticleStackView.swift in Sources */,
 				123C63332B10B5A000575CE6 /* HomeBackgroundView.swift in Sources */,
+				56CE62872B110E22005BA881 /* PostingStackBottomButtonView.swift in Sources */,
+				56CE628C2B110E6C005BA881 /* PostingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
