@@ -27,6 +27,7 @@
 		56CE62872B110E22005BA881 /* PostingStackBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62862B110E22005BA881 /* PostingStackBottomButtonView.swift */; };
 		56CE62892B110E43005BA881 /* PostingArticleStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE62882B110E43005BA881 /* PostingArticleStackView.swift */; };
 		56CE628C2B110E6C005BA881 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE628B2B110E6C005BA881 /* PostingViewController.swift */; };
+		56CE628E2B110F96005BA881 /* CafeinProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE628D2B110F96005BA881 /* CafeinProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		56CE62862B110E22005BA881 /* PostingStackBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingStackBottomButtonView.swift; sourceTree = "<group>"; };
 		56CE62882B110E43005BA881 /* PostingArticleStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingArticleStackView.swift; sourceTree = "<group>"; };
 		56CE628B2B110E6C005BA881 /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		56CE628D2B110F96005BA881 /* CafeinProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeinProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				563879322B1088DA008768F0 /* AppDelegate.swift */,
 				123C633F2B10FDB600575CE6 /* SearchViewController.swift */,
 				563879342B1088DA008768F0 /* SceneDelegate.swift */,
+				56CE628D2B110F96005BA881 /* CafeinProfileImageView.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				56CE62792B110D39005BA881 /* Reusable.swift in Sources */,
 				56CE627F2B110D9D005BA881 /* PagingImageCollectionViewCell.swift in Sources */,
 				123C630D2B10A12800575CE6 /* HomeViewController.swift in Sources */,
+				56CE628E2B110F96005BA881 /* CafeinProfileImageView.swift in Sources */,
 				56CE62832B110DDB005BA881 /* PostingHeaderProfileView.swift in Sources */,
 				123C63362B10C05F00575CE6 /* HomeCell.swift in Sources */,
 				56CE62852B110DF3005BA881 /* PostingStackHeaderView.swift in Sources */,
